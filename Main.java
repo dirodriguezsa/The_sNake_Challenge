@@ -52,7 +52,7 @@ public class Main {
         snake.addHead(new Position(0, 3)); // Agrega la nueva cabeza D
         printStepInfo(snake, "N_2 (Come -> D)", false); // No ocurre resize (size=3 <= capacity=4)
 
-        // N_3: No come (Avanza a E)
+        // N_3: No come (Avanza a E)p
         out.println("\n--- MOVIMIENTO N_3 (No come) ---");
         snake.addHead(new Position(0, 4)); // Agrega la nueva cabeza E (transitoriamente size=4, capacity=4)
         snake.removeTail();                 // Remueve la cola B
